@@ -3,9 +3,9 @@ import tkinter as tk
 
 # Setup GPIO
 GPIO.setmode(GPIO.BCM)
-RED_PIN = 4
-GREEN_PIN = 17
-BLUE_PIN = 27
+RED_PIN = 22
+GREEN_PIN = 27
+BLUE_PIN = 17
 
 # Set up the GPIO pins as outputs
 GPIO.setup(RED_PIN, GPIO.OUT)
